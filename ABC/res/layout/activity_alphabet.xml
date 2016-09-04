@@ -1,0 +1,306 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	android:gravity="center"
+	tools:ignore="UselessParent" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/buttonA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                style="?android:attr/buttonBarStyle"
+                android:onClick="btnA"
+                android:text="@string/button_a"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonB"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnB"
+                android:text="@string/button_b" 
+                android:textColor="@android:color/holo_red_light"/>
+
+            <Button
+                android:id="@+id/buttonC"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnC"
+                android:text="@string/button_c"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonD"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnD"
+                android:text="@string/button_d"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonE"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnE"
+                android:text="@string/button_e"
+                android:textColor="@android:color/holo_red_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/buttonF"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnF"
+                android:text="@string/button_f" 
+                android:textColor="@android:color/holo_red_light"/>
+
+            <Button
+                android:id="@+id/buttonG"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnG"
+                android:text="@string/button_g" 
+                android:textColor="@android:color/holo_red_light"/>
+
+            <Button
+                android:id="@+id/buttonH"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnH"
+                android:text="@string/button_h"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonI"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnI"
+                android:text="@string/button_i"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonJ"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnJ"
+                android:text="@string/button_j" 
+                android:textColor="@android:color/holo_red_light"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonK"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnK"
+                android:text="@string/button_k"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonL"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnL"
+                android:text="@string/button_l"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonM"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnM"
+                android:text="@string/button_m"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonN"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnN"
+                android:text="@string/button_n"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonO"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnO"
+                android:text="@string/button_o"
+                android:textColor="@android:color/holo_red_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonP"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnP"
+                android:text="@string/button_p"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonQ"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnQ"
+                android:text="@string/button_q"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonR"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnR"
+                android:text="@string/button_r"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonS"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnS"
+                android:text="@string/button_s"
+                android:textStyle="italic"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonT"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnT"
+                android:text="@string/button_t"
+                android:textColor="@android:color/holo_red_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonU"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnU"
+                android:text="@string/button_u"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonV"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnV"
+                android:text="@string/button_v"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonW"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnW"
+                android:text="@string/button_w" 
+                android:textColor="@android:color/holo_red_light"/>
+
+            <Button
+                android:id="@+id/buttonX"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnX"
+                android:text="@string/button_x"
+                android:textColor="@android:color/holo_red_light" />
+
+            <Button
+                android:id="@+id/buttonY"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnY"
+                android:text="@string/button_y"
+                android:textColor="@android:color/holo_red_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonZ"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:onClick="btnZ"
+                android:text="@string/button_z"
+                android:textColor="@android:color/holo_red_light" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

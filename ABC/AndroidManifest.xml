@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tomal.abc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/abc_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".AlphabetActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LetterA"
+            android:label="@string/title_activity_letter"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterB"
+            android:label="@string/title_activity_letter_b"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterC"
+            android:label="@string/title_activity_letter_c"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterD"
+            android:label="@string/title_activity_letter_d"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterE"
+            android:label="@string/title_activity_letter_e"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterF"
+            android:label="@string/title_activity_letter_f" >
+        </activity>
+        <activity
+            android:name=".LetterG"
+            android:label="@string/title_activity_letter_g"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterH"
+            android:label="@string/title_activity_letter_h"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterI"
+            android:label="@string/title_activity_letter_i"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterJ"
+            android:label="@string/title_activity_letter_j"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterK"
+            android:label="@string/title_activity_letter_k"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterL"
+            android:label="@string/title_activity_letter_l"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterM"
+            android:label="@string/title_activity_letter_m"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterN"
+            android:label="@string/title_activity_letter_n"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterO"
+            android:label="@string/title_activity_letter_o"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterP"
+            android:label="@string/title_activity_letter_p"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterQ"
+            android:label="@string/title_activity_letter_q"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterR"
+            android:label="@string/title_activity_letter_r"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterS"
+            android:label="@string/title_activity_letter_s"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterT"
+            android:label="@string/title_activity_letter_t"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterU"
+            android:label="@string/title_activity_letter_u"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterV"
+            android:label="@string/title_activity_letter_v"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterW"
+            android:label="@string/title_activity_letter_w"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterX"
+            android:label="@string/title_activity_letter_x"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterY"
+            android:label="@string/title_activity_letter_y"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterZ"
+            android:label="@string/title_activity_letter_z"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
